@@ -4,3 +4,4 @@ To do:
 2. Add Projects and Contact html/css files - in Contact, add GitHub Repositories to view projects and sample images 
 3. Fix/improve anything
 4. Maintain GitHub for this, add to do things here
+5. Add additional responsive features (+ for phones/tablets)
