@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+body {
+    background-image: url("../images/education.jpg");
+    background-repeat: no-repeat;      
+    background-size: cover;             
+    background-position: center;        
+    background-attachment: fixed;       
+    min-height: 100vh;  
+}
+
+
+.title {
+    background: linear-gradient(to right, #6f6fd6, #4a4abf);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title h1 {
+    flex: 1;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-left: 100px;
+}
+
+.navigation {
+    display: flex;
+    gap: 50px;
+    margin-right: 100px;
+    padding: 20px 20px;
+}
+.navigation button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: 1px solid darkblue;
+    border-radius: 50px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+.navigation button:hover {
+    background-color: #ffffff;
+    color: black;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgb(99, 97, 97);
+}
+.navigation button:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 3px lightgray;
+}
+
+
+.container {
+    background: linear-gradient(to right, #6f6fd6, #4a4abf);
+    margin-top: 150px;
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    min-height: 50vh; 
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 10px;
+}
+
+.education-list {
+    padding: 20px 20px;
+}
