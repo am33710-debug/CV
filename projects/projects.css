@@ -99,3 +99,37 @@ body {
     transform: translateY(2px);
     box-shadow: 0 1px 3px lightgray;
 }
+
+
+@media (max-width: 768px) { /* Tablets */
+    .title {
+        flex-direction: column;
+    }
+    .title h1 {
+        margin-right: 100px;
+    }
+
+    .navigation {
+        margin-left: 100px;
+    }
+
+    .container {
+        margin-top: 180px;
+    }
+}
+
+
+@media (max-width: 480px) { /* Phones */
+    .title h1 {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+    .navigation {
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
