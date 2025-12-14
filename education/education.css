@@ -1,16 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    font-size: 1rem;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
+
 body {
-    background-image: url("../images/education.jpg");
-    background-repeat: no-repeat;      
-    background-size: cover;             
-    background-position: center;        
-    background-attachment: fixed;       
-    min-height: 100vh;  
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: black;
+    height: 100vh;
 }
 
 
